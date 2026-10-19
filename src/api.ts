@@ -1,4 +1,4 @@
-const API = 'https://medicines-gym-customize-discuss.trycloudflare.com/api/v1';
+const API = 'https://infringement-repeated-bikes-throughout.trycloudflare.com/api/v1';
 async function request<T>(path: string, options?: RequestInit): Promise<T> {
   const response = await fetch(`${API}${path}`, {
     ...options,
